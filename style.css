@@ -137,6 +137,10 @@ span{
 }
 
 .home-content .home-img{
+    align-items: center;
+    
+
+    justify-content: center;
     width: 200px;
     height: 200px;
     border-radius: 50%;
