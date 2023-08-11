@@ -107,52 +107,7 @@ span{
     background-color: var(--second-bg);
 }
 
-.header a{
-    font-size: 2.5rem;
-    color: var(--text);
-}
 
-.logo{
-  margin: 0%;
-  padding: 1px;
-}
-
-nav {
-  margin:auto;
-  text-align: center;
-  width: 110%;
-  font-family: 'poppins',sans-serif;
-  font-size: 2rem;
-} 
-
-nav ul {
-  background:var(--bg-color );
-  padding: 0 20px;
-  list-style: none;
-  position: relative;
-  display: flex;
-  display: inline-table;
-  width: 90%;
-}
-
-nav ul li{
-  float:left;
-}
-
-nav ul li:hover{
-  background:var(--second-bg-color);
-}
-
-nav ul li:hover a{
- color:#000;
-}
-
-nav ul li a{
- display: block;
- padding: 13px;
- color: #fff;
- text-decoration: none;
-}
 
 .home{
     min-height: 600px;
@@ -816,8 +771,11 @@ nav ul li a{
 }
 
 .video-content iframe{
-  width: 78vw;
-  height: 320px;
+  width: 82vw;
+  height: 220px;
+  position: relative;
+  right: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -840,15 +798,16 @@ nav ul li a{
 
 }
 
-
+.home-content .home-img{
+  width:158px;
+  height:158px;
+}
 
 .home-img img
 
 {
 
-  width: 75vw;
-  margin-top: 0rem;
-
+  width: 99988vw;
 }
 
 .header{
@@ -930,6 +889,8 @@ nav ul li a{
 
 
 @media (max-width: 617px) {
+  
+  
 
   .portfolio-container {
 
