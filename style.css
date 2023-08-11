@@ -491,6 +491,18 @@ nav ul li a{
     background-color: var(--second-bg-color);
   }
 
+  .video .video-content{
+    position:relative;
+    overflow: hidden;
+  }
+
+  .video-content iframe{
+    width: 21.7vw;
+    height: 220px;
+  }
+
+
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -803,9 +815,9 @@ nav ul li a{
 
 }
 
-.video{
-  align-items: center;
-  justify-content: center;
+.video-content iframe{
+  width: 100%;
+  height: 320px;
 }
 
 
@@ -830,13 +842,13 @@ nav ul li a{
 
 
 
-.home-img 
+.home-img img
 
 {
 
-  width: 70vw;
+  width: 35vw;  
 
-  margin-top: 4rem;
+  margin-top: 0rem;
 
 }
 
